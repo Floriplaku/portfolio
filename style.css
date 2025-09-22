@@ -469,3 +469,35 @@ body.light #about h2 {
   color: #0a1423;
   box-shadow: 0 0 15px rgba(97,165,255,0.8);
 }
+
+/* Mobile Fixes */
+@media screen and (max-width: 768px) {
+  /* Qendro butonat njëri poshtë tjetrit */
+  .buttons {
+    display: flex;
+    flex-direction: column;  /* nga rresht → kolonë */
+    align-items: center;     /* qendër */
+    gap: 12px;               /* hapësirë mes butonave */
+    margin-top: 15px;
+  }
+
+  .buttons a {
+    width: 80%;              /* bëji më të gjerë */
+    text-align: center;      /* tekst në mes */
+    font-size: 16px;         /* font i qartë për mobile */
+  }
+
+  /* Për seksionin e fundit (Email, LinkedIn, GitHub) */
+  .contact-buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    align-items: center;
+  }
+
+  .contact-buttons a {
+    width: 80%;
+    text-align: center;
+  }
+}
+
