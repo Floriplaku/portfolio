@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Florian Plaku | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      <span class="logo-top">Flo<span class="dot">.</span></span>
+      <span class="logo-bottom">Plaku</span>
+    </div>
+    <nav>
+      <a href="#about">About Me</a>
+      <a href="#experience">Experience</a>
+      <a href="#education">Education</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <!-- Toggle button -->
+    <button id="theme-toggle" class="theme-btn">🌙</button>
+  </header>
+
+  <!-- Orange Strip -->
+  <div class="orange-strip"></div>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-text">
+      <img src="assets/profile.png" alt="Profile photo of Florian Plaku" class="hero-image">
+      <h1>Hello, I’m <span class="name-highlight">Florian Plaku</span></h1>
+      <h2>M.Sc. Information Systems Student</h2>
+      <p>
+        Transitioning from diplomacy to data: building skills in analytics, Python, and SQL. <br>
+        Growing interest in NLP, AI, BPA, and BI.
+      </p>
+      <div class="hero-buttons">
+        <a href="assets/Florian_Plaku_CV.pdf" class="btn blue">📄 Download CV</a>
+        <a href="#contact" class="btn light-blue">✉️ Contact Me</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- About Me -->
+  <section id="about" class="section">
+    <h2>✨ About Me</h2>
+    <p>
+      I am currently completing my Master’s in Information Systems at Humboldt University of Berlin, 
+      a program I chose for its strong relevance and interdisciplinarity.
+    </p>
+    <p>
+      During the COVID-19 pandemic, limited physical interaction with university shifted my focus 
+      towards politics and diplomacy, where I gained valuable professional experience in 
+      problem-solving, communication, and public service.
+    </p>
+    <p>
+      In 2024, I reoriented myself fully towards Information Systems within my studies at Humboldt University of Berlin.
+      Since then, I have been developing foundational skills in Python, SQL, and Data Analytics, while actively working on the 
+      BI Data Analyst Path at Codecademy and other online platforms.
+    </p>
+    <p>
+      In the upcoming semester at Humboldt University of Berlin, I will further expand my expertise 
+      by taking courses in <strong>Natural Language Processing (NLP)</strong>, 
+      <strong>Software Engineering</strong>, and 
+      <strong>Business Process Automation (BPA)</strong>. 
+      These steps reflect my ambition to grow in <strong>Data </strong> and <strong>AI</strong> 
+      , and to apply these skills to build practical and scalable solutions.
+    </p>
+  </section>
+
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- Work Experience -->
+  <section id="experience" class="section">
+    <h2>💼 My Work Experience</h2>
+    <div class="cards">
+      <div class="card">
+        <img src="assets/perseus.png" alt="Perseus Logo" class="card-logo">
+        <h3 class="card-title">Perseus Technologies GmbH</h3>
+        <p><em>Working Student – Cybersecurity & Data Research</em></p>
+        <p>03/2022 – 03/2024 | 📍 Berlin, Germany</p>
+        <div class="tags">
+          <span>Data Research</span><span>Cybersecurity</span> <span>Workflow Optimization</span><span>Customer Support</span> <span>Fresh Works</span> <span>Jira / Confluence</span>
+        </div>
+      </div>
+      <div class="card">
+        <img src="assets/consulate.png" alt="Consulate Logo" class="card-logo">
+        <h3 class="card-title">Consulate of Albania in Germany</h3>
+        <p><em>Consular Services</em></p>
+        <p>10/2020 – 12/2021 | 📍 Berlin, Germany</p>
+        <div class="tags">
+          <span>Problem Solving</span><span>Citizen Support</span><span>Administrative Support</span><span>Legal Assistance</span> <span>Cross-Cultural Collaboration</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+  <!-- Education -->
+  <section id="education" class="section">
+    <h2>🎓 My Education</h2>
+    <div class="cards">
+      <div class="card wide">
+        <img src="assets/Humboldt.png" alt="Humboldt Logo" class="card-logo">
+        <h3 class="card-title">Humboldt University of Berlin</h3>
+        <p><em>Master of Science in Information Systems</em></p>
+        <p>2021 – ongoing | 📍 Berlin, Germany</p>
+      </div>
+      <div class="card wide">
+        <img src="assets/uet.png" alt="UET Logo" class="card-logo">
+        <h3 class="card-title">University of Tirana (UET)</h3>
+        <p><em>Bachelor of Science in Business Informatics</em></p>
+        <p>2015 – 2018 | 📍 Tirana, Albania</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Divider -->
+  <div class="divider"></div>
+
+<!-- Projects -->
+<section id="projects" class="section">
+  <h2>💡 My Projects</h2>
+  <div class="projects">
+    <div class="project-circle" data-project="sentiment">
+      <img src="assets/bitcoin_sentiment.png" alt="Bitcoin Sentiment Project">
+      <h3>Bitcoin Tweet Sentiment</h3>
+      <div class="tags">
+        <span class="tag-nlp">NLP</span>
+        <span class="tag-ml">Machine Learning</span>
+        <span class="tag-ml">DistilBERT</span>
+        <span class="tag-ml">RNN</span>
+      </div>
+      <button class="btn small dive-btn">🌊 Dive In</button>
+    </div>
+
+    <div class="project-circle" data-project="codecademy">
+      <img src="assets/data_analytics.png" alt="Codecademy BI Exercises Project">
+      <h3>Codecademy BI Exercises</h3>
+      <div class="tags">
+        <span class="tag-bi">BI</span>
+        <span class="tag-oop">OOP</span>
+        <span class="tag-bi">Pandas</span>
+        <span class="tag-bi">Matplotlib</span>
+      </div>
+      <button class="btn small dive-btn">🌊 Dive In</button>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Divider Orange Before Contact -->
+  <div class="divider orange"></div>
+
+<!-- Contact -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<section id="contact" class="section contact">
+  <h2>📬 Get in Touch</h2>
+  <p>Collaboration sparks innovation. Whether it’s data, BI, AI, politics — or just a friendly chat — let’s connect and build something meaningful together.</p>
+  <div class="contact-buttons">
+    <a href="mailto:flori.plaku@live.com" class="btn glow">
+      <i class="fas fa-envelope"></i> Email Me
+    </a>
+    <a href="https://www.linkedin.com/in/florian-plaku/" class="btn glow" target="_blank">
+      <i class="fab fa-linkedin"></i> LinkedIn
+    </a>
+    <a href="https://github.com/Floriplaku" class="btn glow" target="_blank">
+      <i class="fab fa-github"></i> GitHub
+    </a>
+  </div>
+</section>
+
+
+  <!-- Modal -->
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <div id="modal-body"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
